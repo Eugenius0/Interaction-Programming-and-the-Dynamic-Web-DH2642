@@ -1,0 +1,1 @@
+function c(l,n){if(l!=null){let o=function(f){n.promise===l&&(n.data=f)},u=function(f){n.promise===l&&(n.error=f)};n.promise=l,n.data=null,n.error=null,l.then(o).catch(u)}}export{c as resolvePromise};

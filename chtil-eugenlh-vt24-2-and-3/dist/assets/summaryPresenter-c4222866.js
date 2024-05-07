@@ -1,0 +1,1 @@
+import{SummaryView as m}from"./summaryView-8d7076b2.js";import{shoppingList as o}from"./utilities-758bf0b6.js";import"./styles.module-705469aa.js";function p(t){const{model:e}=t,r=o(e.dishes||[]);return React.createElement(m,{people:e.numberOfGuests,ingredients:r})}export{p as Summary};
