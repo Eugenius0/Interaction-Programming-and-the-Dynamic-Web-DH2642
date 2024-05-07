@@ -1,0 +1,1 @@
+@media (width > 250px){.flexParent{display:flex;flex-direction:row}}.mainContent{flex:.8}.sidebar{flex:.2;position:sticky;top:0}
