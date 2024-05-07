@@ -1,0 +1,137 @@
+.containerSidebarView {
+    display: flex;
+    align-items: center;
+}
+
+.containerSidebarView button,
+.containerSidebarView div {
+    margin-right: 10px;
+}
+
+.tableContainerSidebarView tr {
+    display: flex;
+    align-items: center;
+}
+
+.tableContainerSidebarView td {
+    padding: 5px;
+}
+
+.dishTypesSidebarView {
+    margin-right: 10px;
+    margin-left: auto; 
+}
+
+.button {
+    cursor: pointer;
+}
+
+.rightAlign {
+    text-align: right;
+}
+
+.tableSummaryView {
+    border: 2px solid black;
+}
+
+.tableSummaryView tr:nth-child(even) {
+    background-color: rgb(200, 200, 200);
+}
+
+.tableSummaryView th {
+    background-color: rgb(170, 170, 170);
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.tableSummaryView td {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.titleSummaryView {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.totalSidebarView {
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.containerResultsView {
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    border: solid grey;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.containerResultsView:hover {
+    background-color: azure;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.containerResultsView img {
+    vertical-align: top; 
+    border-radius: 4px;
+}
+  
+  .containerResultsView div {
+    margin-top: 5px;
+}
+
+.searchFormViewContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.inputField { 
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.selectSearchFormView {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.buttonSearchFormView {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.moreInformationLink {
+    color: blue;
+    text-decoration: underline;
+}
+
+.addToMenuButton {
+    margin: 0px 0px 20px 20px;
+    cursor: pointer;
+}
+
+.containerDetailsView img {
+    border-radius: 4px;
+}
+
