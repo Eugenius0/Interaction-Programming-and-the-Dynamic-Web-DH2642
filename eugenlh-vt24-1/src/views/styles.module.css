@@ -1,0 +1,70 @@
+.containerSidebarView {
+    display: flex;
+    align-items: center;
+}
+
+.containerSidebarView button,
+.containerSidebarView div {
+    margin-right: 10px;
+}
+
+.tableContainerSidebarView tr {
+    display: flex;
+    align-items: center;
+}
+
+.tableContainerSidebarView td {
+    padding: 5px;
+}
+
+.dishTypesSidebarView {
+    margin-right: 10px;
+    margin-left: auto; 
+}
+
+.button {
+    cursor: pointer;
+}
+
+.rightAlign {
+    text-align: right;
+}
+
+.tableSummaryView {
+    border: 2px solid black;
+}
+
+.tableSummaryView tr:nth-child(even) {
+    background-color: rgb(200, 200, 200);
+}
+
+.tableSummaryView th {
+    background-color: rgb(170, 170, 170);
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.tableSummaryView td {
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.titleSummaryView {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.totalSidebarView {
+    font-weight: bold;
+    margin-left: auto;
+}
+
+
